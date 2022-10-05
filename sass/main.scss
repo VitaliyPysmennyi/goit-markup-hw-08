@@ -1,0 +1,36 @@
+// utils styles
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
+// components styles
+@import "./components/base";
+@import "./components/reset";
+@import "./components/container";
+@import "./components/title";
+
+// header
+@import "./components/header";
+
+// main-content index.html
+@import "./components/main-content";
+
+@import "./components/features";
+@import "./components/work-process";
+@import "./components/our-team";
+@import "./components/socials-icon-team";
+@import "./components/regular-clients";
+
+// main-content portfolio.html
+@import "./components/portfolio";
+
+// Footer
+@import "./components/footer";
+@import "./components/socials-icon";
+@import "./components/subscribe";
+
+// Backdrop, modal
+@import "./components/backdrop";
+@import "./components/modal";
+
+// Form
+@import "./components/form";

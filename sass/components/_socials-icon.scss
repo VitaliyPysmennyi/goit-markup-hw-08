@@ -1,0 +1,21 @@
+.link-footer-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--white-text-color);
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition: background-color var(--animation);
+}
+
+.footer-socials-icon {
+    fill: currentColor;
+}
+
+.link-footer-icon:hover,
+.link-footer-icon:focus {
+    background-color: var(--blue-text-color);
+}

@@ -1,0 +1,30 @@
+.socials-icon {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+
+    &__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        color: var(--icon-text-color);
+        background-color: var(--primary-backg-color);
+
+        transition: color var(--animation),
+            background-color var(--animation);
+    }
+
+    &__svg {
+        fill: currentColor;
+    }
+
+    &__link:hover,
+    &__link:focus {
+        color: var(--white-text-color);
+        background-color: var(--blue-text-color);
+    }
+}

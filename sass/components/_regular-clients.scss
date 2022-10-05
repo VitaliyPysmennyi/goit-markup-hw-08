@@ -1,0 +1,30 @@
+.clients-section {
+
+&__list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+&__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid;
+    border-radius: 4px;
+    color: var(--icon-text-color);
+    background-color: var(--primary-backg-color);
+    transition: color var(--animation);
+}
+
+&__icon {
+    fill: currentColor;
+}
+
+&__link:hover,
+&__link:focus {
+    color: var(--button-backg-color);
+}
+}
